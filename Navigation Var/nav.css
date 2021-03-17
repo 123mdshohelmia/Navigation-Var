@@ -1,0 +1,43 @@
+body{
+    background-image: url(image/wp1844549.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navBar{
+    width: 90%;
+    background-color: #000000d2;
+    padding: 24px 40px;
+    border-radius: 20px;
+    margin: 60px 20px;
+    border: none;
+
+    
+}
+.navBar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navBar ul li a{
+    font-size: 26px;
+    font-weight: bold;
+    color: seashell;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 100px;
+    border: 2px salmon;
+    padding: 18px 36px;
+    border-radius: 7px;
+    transition: 5s;
+    
+}
+.navBar ul li a:hover{
+    transform: scale(5s);
+    color: springgreen;
+    background-color: violet;
+}
